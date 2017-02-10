@@ -44,46 +44,56 @@ hr {
 }
 
 header {
-  background-color: #b3ffb3;
+  background-color: white;
   background-image: url(background1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
   margin-bottom: 4em;
-  height: 500px;
+  height: 1500px;
+  position:relative;
 }
 
 header h1 {
-  color:  #bddc04;
-  font-size: 1em;
+  color:  black;
   margin: 0;
   letter-spacing: 1px;
-  opacity: 1;
   position: relative;
-  left: 170px;
+  left: 240px;
+  top: 40px;
   font-weight: 400;
-}
-header strong  {
   font-size: 2em;
-    text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
 
+}
+
+header strong  {
+  color:  #bddc04;
+  font-size: 2.5em;
+  text-shadow: 0 3px 0 rgba(0,0,0, 0.5);
+}
+
+header a {
+	color:  #bddc04;
+}
+
+header a:focus,
+header a:hover {
+  color: #95af04;
 }
 
 header p {
-  color:  #bddc04;
-  font-size: 1em;
-  padding-bottom: 1.3em;
+  color:  black;
   letter-spacing: 1px;
   padding-top: .5em;
-  opacity: 1;
   position: relative;
-  left: 170px;
+  left: 240px;
+  top: 30px;
   font-weight: 400;
+  font-size: 2em;
 }
-
 
 section h1 {
   font-size: 1.8em;
@@ -110,25 +120,13 @@ footer hr {
 }
 
 .center {
-  text-align: center;
-  
+  text-align: center;  
 }
 
 @media screen and (min-width: 50em) {
   header {
     height: 700px;
   }
-  
-  header h1 {
-    font-size: 3.2em;
-    top: 540px;
-  }
-  
-  header p {
-    top: 530px;
-    font-size: 1.5em;
-  }
-}
 
 
 /* ------------------- Grid -------------------*/
