@@ -51,10 +51,10 @@ header {
   background-image: url(background1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: contain;
+  /*-webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-  background-size: contain;
+  background-size: contain;*/
   margin-bottom: 4em;
   height: 1500px;
   position:relative;
