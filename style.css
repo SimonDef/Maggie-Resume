@@ -46,7 +46,15 @@ hr {
   border-color: #95af04;
 }
 
-header {
+span {
+	background:#95af04; 
+	display: inline-block;
+	height: 4px;
+	margin-right: 10px;
+	width: 45px
+}
+
+.header {
   background-color: white;
   background-image: url(background1.jpg);
   background-repeat: no-repeat;
@@ -61,7 +69,7 @@ header {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
-header h1 {
+.header h1 {
   color:  #bddc04;
   margin: 0;
   letter-spacing: 1px;
@@ -73,26 +81,40 @@ header h1 {
 
 }
 
-header strong  {
+.header strong  {
   color:  #bddc04;
   font-size: 2.5em;
   /*text-shadow: 0 3px 0 rgba(0,0,0, 0.5);*/
 }
 
-header a {
+.header a {
 	color: #bddc04;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-header a:focus,
-header a:hover {
-  color: #95af04;
+.header a:focus,
+.header a:hover {
+  	color: #95af04;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-header p {
+.downloadbutton {
+  position: relative;
+  left: 240px;
+  top: 180px;
+  border-radius: 30px;
+  padding: 15px 40px;
+  background-color: #e7e7e7;
+  border: 2px solid #95af04;
+}
+
+a.downloadbutton {
+  color: black; 
+  }
+
+.header p {
   color:  #bddc04;
   letter-spacing: 1px;
   padding-top: .5em;
@@ -134,7 +156,7 @@ footer hr {
 }
 
 @media screen and (min-width: 50em) {
-  header {
+.header {
     height: 700px;
   }
 
