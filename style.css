@@ -54,11 +54,18 @@ span {
 	width: 45px
 }
 
+blockquote {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
 .header {
   background-color: white;
-  background-image: url(background1.jpg);
+  background-image: url(IMG_9807.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,7 +81,7 @@ span {
   margin: 0;
   letter-spacing: 1px;
   position: relative;
-  left: 240px;
+  left: 220px;
   top: 40px;
   font-weight: 400;
   font-size: 2em;
@@ -119,7 +126,7 @@ a.downloadbutton {
   letter-spacing: 1px;
   padding-top: .5em;
   position: relative;
-  left: 240px;
+  left: 380px;
   top: 30px;
   font-weight: 400;
   font-size: 2em;
@@ -228,74 +235,6 @@ footer hr {
 }
 
 /* -------------------Custom Blocks----------------- */
-
-/* Puzzle */
-.puzzle { 
-   position: relative; 
-   top: 0; 
-   left: 0; 	
-   width: 100%; /* for IE 6 */
-   height: 100%; /* for IE 6 */
-}
-
-@media screen and (min-width: 40em) {
-  .puzzle .grid-2 {
-	width: 33.3333333%;
-  }
-}
-
-.puzzle1  { 
-  background-color: white;
-  background-image: url(Puzzle1.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  position:relative;
-  height: 250px;
-}
-.puzzle2  { 
-  background-color: white;
-  background-image: url(Puzzle2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  position:relative;
-  height: 250px;
-}
-.puzzle3  { 
-  background-color: white;
-  background-image: url(Puzzle3.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  position:relative;
-  height: 250px;
-}
-.puzzle4  { 
-  background-color: white;
-  background-image: url(Puzzle4.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  position:relative;
-  height: 250px;
-}
-
-.puzzle p { 
-   font-size:1em;
-   margin: 0;
-   position: absolute;               /* 2 */
-   top: 30%;
-   left:30%;
-   text-align:center;
-}
-.puzzle p:hover {
-  font-size: 1.2em;
-}			
-
-.puzzle a {
-	color:  black;
-}
-.puzzle a:focus,
-.puzzle a:hover {
-  color: black;
-}
 
 /* Education Block */
 .education {
